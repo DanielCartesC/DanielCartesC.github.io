@@ -18,15 +18,15 @@
     <section class="section-wrap games-section" id="juegos" aria-labelledby="games-title">
       <div class="section-heading">
         <div><div class="eyebrow"><span class="heading-index">05</span> ARCADE · MINI JUEGOS</div><h2 id="games-title">Mini <span>juegos.</span></h2></div>
-        <p>Una pausa interactiva para cerrar el recorrido: juegos estilo arcade donde se exploran mecánicas, ritmo y experiencia de usuario. Elige uno y juega.</p>
+        <p>Una pausa interactiva para cerrar el recorrido: juegos de estilo arcade para explorar mecánicas, ritmo y experiencia de usuario. Elige uno y juega.</p>
       </div>
       <div class="game-list">
         <article class="game-card" data-game="jump">
           <div class="game-info">
-            <div class="game-type"><span class="game-dot"></span> MINI JUEGO · 01</div>
+            <div class="game-type"><span class="game-dot"></span> MINIJUEGO · 01</div>
             <h3>Salto al<br><span>infinito.</span></h3>
             <p>Salta más alto, recoge monedas, esquiva enemigos y descubre poderes especiales.</p>
-            <div class="game-controls"><span class="keycap">←</span><span class="keycap">→</span><span>flechas / A y D</span></div>
+            <div class="game-controls"><span class="keycap">←</span><span class="keycap">→</span><span>flechas o A y D</span></div>
             <p class="power-guide"><span>✧ Escudo</span><span>↑ Súper salto</span><span>◎ Imán</span><span>♥ Vida</span></p>
             <div class="personal-records"><span>MEJOR PUNTAJE <strong id="best-score">0000</strong></span><span>TOTAL MONEDAS <strong id="total-coins">0000</strong> ◉</span></div>
             <button class="button button-primary play-button" id="start-game" type="button">Jugar ahora <span aria-hidden="true">↗</span></button>
@@ -44,10 +44,10 @@
         </article>
         <article class="game-card" data-game="orbit">
           <div class="game-info">
-            <div class="game-type"><span class="game-dot"></span> MINI JUEGO · 02</div>
+            <div class="game-type"><span class="game-dot"></span> MINIJUEGO · 02</div>
             <h3>Órbita<br><span>de neón.</span></h3>
             <p>Protege el núcleo: cambia de carril, esquiva meteoros, recoge energía y descubre poderes.</p>
-            <div class="game-controls"><span class="keycap">←</span><span class="keycap">→</span><span>flechas / A y D</span></div>
+            <div class="game-controls"><span class="keycap">←</span><span class="keycap">→</span><span>flechas o A y D</span></div>
             <p class="power-guide orbit-guide"><span>✧ Escudo</span><span>↟ Cohete</span><span>♥ Vida</span></p>
             <div class="personal-records"><span>MEJOR PUNTAJE <strong id="orbit-best">0000</strong></span><span>TOTAL ENERGÍA <strong id="orbit-total-coins">0000</strong> ◆</span></div>
             <button class="button button-primary play-button" id="orbit-start" type="button">Jugar ahora <span aria-hidden="true">↗</span></button>
@@ -65,7 +65,7 @@
         </article>
         <article class="game-card prism-game-card" data-game="prism">
           <div class="game-info">
-            <div class="game-type"><span class="game-dot"></span> MINI JUEGO · 03</div>
+            <div class="game-type"><span class="game-dot"></span> MINIJUEGO · 03</div>
             <h3>Prisma<br><span>errante.</span></h3>
             <p>Empieza con los tres rumbos superiores. Cada 1000 puntos se desbloquea un rombo nuevo hasta completar el giro de 360°.</p>
             <div class="game-controls"><span class="keycap">←</span><span class="keycap">→</span><span>mantener para girar · pulso automático</span></div>
@@ -100,7 +100,7 @@
           <h3>Dinofly<br><span class="case-subtitle">Player Experience: diseñar escuchando al jugador.</span></h3>
           <dl class="case-facts">
             <div><dt>El desafío</dt><dd>Entender y mejorar la jugabilidad desde la experiencia de quienes juegan.</dd></div>
-            <div><dt>El enfoque</dt><dd>Desarrollé un videojuego desde cero, definí un marco de investigación y realicé una evaluación heurística de jugabilidad y pruebas con usuarios.</dd></div>
+            <div><dt>El enfoque</dt><dd>Desarrollé un videojuego desde cero, definí un marco de investigación y realicé una evaluación heurística de la jugabilidad y pruebas con usuarios.</dd></div>
             <div><dt>La evolución</dt><dd>El juego tuvo tres versiones; cada una incorporó mejoras a partir de las evaluaciones realizadas con los jugadores.</dd></div>
           </dl>
         </div>
@@ -109,7 +109,7 @@
           <div class="dino-process-list">
             <figure class="dino-process-item">
               <img src="${s}" alt="Prueba con jugadores: completaron tres tareas graduales durante sesiones de 30 segundos; se usó Think Aloud con enfoque observacional y se grabó la pantalla." loading="lazy" decoding="async">
-              <figcaption><span>01 · PRUEBAS CON USUARIOS</span><strong>Observar el juego desde la experiencia real</strong><p>Los jugadores probaron tres tareas entregadas gradualmente durante sesiones de 30 segundos. Se observó su interacción con el juego y se grabó la pantalla para analizar la experiencia.</p></figcaption>
+              <figcaption><span>01 · PRUEBAS CON USUARIOS</span><strong>Observar el juego desde la experiencia real</strong><p>Durante sesiones de 30 segundos, los jugadores probaron tres tareas que fui presentando de forma gradual. Observé cómo interactuaban con el juego y grabé la pantalla para analizar la experiencia.</p></figcaption>
             </figure>
             <figure class="dino-process-item">
               <img src="${c}" alt="Matriz de evaluación heurística de jugabilidad con problemas puntuados por severidad y frecuencia por cuatro evaluadores." loading="lazy" decoding="async">
@@ -117,7 +117,7 @@
             </figure>
             <figure class="dino-process-item">
               <img src="${l}" alt="Ejemplos de mejoras aplicadas a Dinofly, comparando problemas detectados con los cambios visuales realizados en distintas versiones." loading="lazy" decoding="async">
-              <figcaption><span>03 · MEJORAS APLICADAS</span><strong>Convertir los hallazgos en cambios concretos</strong><p>La presentación muestra ejemplos de problemas detectados y sus soluciones, como ajustar elementos visuales e interfaz. Los hallazgos guiaron la evolución del videojuego entre versiones.</p></figcaption>
+              <figcaption><span>03 · MEJORAS APLICADAS</span><strong>Convertir los hallazgos en cambios concretos</strong><p>La presentación muestra ejemplos de problemas detectados y sus soluciones, como ajustes en elementos visuales y en la interfaz. Los hallazgos guiaron la evolución del videojuego entre versiones.</p></figcaption>
             </figure>
           </div>
         </div>
@@ -149,9 +149,9 @@
         <div class="case-preview-copy logistics-case-copy">
           <div class="eyebrow"><span class="status-dot"></span> LOGÍSTICA · APLICACIÓN MÓVIL · BACKEND</div>
           <h3 id="logistics-title">Sincronizar cada entrega,<br><span>de punta a punta.</span></h3>
-          <p>Backend para una aplicación de couriers de última milla: registrar paquetes entregados y sus evidencias, procesar los cambios de forma asíncrona y mantener sincronizados los datos operativos y extendidos.</p>
+          <p>Mi trabajo se centró principalmente en el backend de una aplicación de couriers de última milla. Abarcó el registro de paquetes entregados y sus evidencias, el procesamiento asíncrono de cambios y la sincronización de datos operativos y extendidos.</p>
           <dl class="case-facts logistics-facts">
-            <div><dt>Mi contribución</dt><dd>Desarrollé los triggers que detectan cambios y escriben en Firestore, el consumer y las APIs internas de persistencia para sincronizar los modelos en Firestore y MongoDB.</dd></div>
+            <div><dt>Mi contribución</dt><dd>Desarrollé el módulo de gestión de la aplicación móvil y, en backend, los triggers que detectan cambios y escriben en Firestore, el consumer y las APIs internas que sincronizan los datos con Firestore y MongoDB.</dd></div>
           </dl>
         </div>
         <div class="logistics-flow" role="img" aria-label="Diagrama: la app courier guarda cambios en Firestore. Un trigger detecta esos cambios, escribe en Firestore y publica un evento en un tópico con una cola suscrita. Un consumer procesa el evento y usa APIs internas para actualizar Firestore y MongoDB; también publica eventos para otros sistemas. Datadog alerta al equipo ante latencia elevada del trigger.">
@@ -166,7 +166,7 @@
             <span class="flow-arrow" aria-hidden="true">→</span>
             <div class="flow-node flow-consumer"><span class="flow-icon">05</span><strong>Consumer</strong><small>Procesa eventos</small></div>
           </div>
-          <div class="flow-branch"><span>APIs internas desarrolladas por mí</span><div class="flow-branch-line" aria-hidden="true"></div></div>
+          <div class="flow-branch"><span>Persistencia y distribución de eventos</span><div class="flow-branch-line" aria-hidden="true"></div></div>
           <div class="flow-destinations">
             <div class="flow-node flow-destination"><strong>Firestore</strong><small>Modelo reducido para la app</small></div>
             <div class="flow-node flow-destination"><strong>MongoDB</strong><small>Modelo extendido</small></div>
@@ -197,9 +197,9 @@
         <div class="case-preview-copy logistics-case-copy">
           <div class="eyebrow"><span class="status-dot"></span> OPERACIONES · BACKOFFICE WEB · NEXT.JS</div>
           <h3 id="backoffice-title">Rutas y guías,<br><span>en un mismo flujo.</span></h3>
-          <p>Backoffice web para consultar rutas de courier y la documentación asociada, además de visualizar órdenes de servicio y retiros de paquetes.</p>
+          <p>Trabajé en el desarrollo del backoffice web para consultar las rutas de los couriers y su documentación, así como visualizar las órdenes de servicio y los retiros de paquetes.</p>
           <dl class="case-facts logistics-facts">
-            <div><dt>Mi contribución</dt><dd>Construí el módulo de Rutas completo y participé en el módulo de Guías. También desarrollé el BFF y la API que consulta en MongoDB los datos de rutas y sus guías.</dd></div>
+            <div><dt>Mi contribución</dt><dd>Construí el módulo de Rutas completo y participé en el módulo de Guías. También desarrollé el BFF y la API que consulta los datos de rutas y sus guías en MongoDB.</dd></div>
           </dl>
         </div>
         <div class="logistics-flow backoffice-flow" role="img" aria-label="Diagrama: el backoffice web en Next.js solicita información al BFF; el BFF consulta la API de courier y esta obtiene de MongoDB los datos de rutas, guías, órdenes de servicio y retiros.">
@@ -230,9 +230,9 @@
         <div class="experience-aside"><span class="aside-symbol" aria-hidden="true">↗</span><p>Del problema real a una experiencia que funciona.</p><span class="aside-tag">CREAR · CONECTAR · RESOLVER</span></div>
         <div class="about-copy">
           <span class="about-kicker">FULL STACK · PRODUCTO · IA</span>
-          <p>Desarrollo software desde 2019, con experiencia en aplicaciones, servicios y soluciones para logística de última milla. Me interesa entender la necesidad de cada producto antes de elegir las herramientas con las que se llevará a cabo la construcción.</p>
-          <p>Cursé un Magíster en Ingeniería Informática con foco en experiencia del jugador, experiencia de usuario, análisis de información y ciencia de datos. En mi tesis apliqué pruebas con usuarios para iterar un videojuego.</p>
-          <p>También disfruto al crear experiencias interactivas. Combino ingeniería, creatividad e IA como apoyo para explorar ideas, validar alternativas y construir soluciones útiles; la decisión técnica sigue siendo humana.</p>
+          <p>Desarrollo software desde 2019, con experiencia en aplicaciones, servicios y soluciones para logística de última milla. Me interesa entender la necesidad de cada producto antes de elegir las herramientas para desarrollarlo.</p>
+          <p>Cursé un Magíster en Ingeniería Informática con foco en experiencia del jugador, experiencia de usuario, análisis de información y ciencia de datos. En mi tesis realicé pruebas con usuarios para iterar un videojuego.</p>
+          <p>También disfruto creando experiencias interactivas. Combino ingeniería, creatividad e IA como apoyo para explorar ideas, validar alternativas y construir soluciones útiles; la decisión técnica sigue siendo humana.</p>
         </div>
       </div>
     </section>
@@ -240,13 +240,13 @@
     <section class="stack-section portfolio-section" id="stack" aria-labelledby="stack-title"><div class="section-wrap">
       <div class="section-heading">
         <div><div class="eyebrow"><span class="heading-index">03</span> HERRAMIENTAS CON PROPÓSITO</div><h2 id="stack-title">El stack cambia. <span>El criterio queda.</span></h2></div>
-        <p>Sin porcentajes de dominio: tecnologías situadas en el tipo de problemas donde las he utilizado o desarrollado como aptitud.</p>
+        <p>Aquí no uso porcentajes de dominio: presento las tecnologías según los problemas en los que las he utilizado y las aptitudes que he desarrollado.</p>
       </div>
       <div class="stack-grid">
-        <article class="stack-card stack-card-accent"><span class="stack-number">01 / EXPLORACIÓN</span><h3>Creatividad + IA</h3><p>Experiencia creando mecánicas e interfaces con Unity y C#. En la tesis apliqué evaluación heurística y pruebas con usuarios para mejorar la experiencia del jugador. Uso IA y diseño de prompts para explorar alternativas y revisar soluciones con criterio técnico.</p><div class="stack-tags"><span>Unity</span><span>C#</span><span>Player Experience</span><span>Pruebas con usuarios</span><span>GitHub Copilot</span><span>Prompts de IA</span></div></article>
-        <article class="stack-card"><span class="stack-number">02 / SISTEMAS</span><h3>APIs, servicios &amp; arquitectura</h3><p>Creación de APIs REST y servicios web con Java EE; desarrollo de triggers serverless con Firebase Functions sobre Cloud Run y Node.js. También experiencia y aptitudes en Java, Python, Spring Boot, NestJS y microservicios; mensajería con colas SQS y tópicos SNS de AWS.</p><div class="stack-tags"><span>APIs REST</span><span>Firebase Functions</span><span>Cloud Run</span><span>Node.js</span><span>Java</span><span>Python</span><span>Spring Boot</span><span>NestJS</span><span>Microservicios</span><span>AWS SQS</span><span>AWS SNS</span></div></article>
+        <article class="stack-card stack-card-accent"><span class="stack-number">01 / EXPLORACIÓN</span><h3>Creatividad + IA</h3><p>Experiencia creando mecánicas e interfaces con Unity y C#. En mi tesis realicé una evaluación heurística y pruebas con usuarios para mejorar la experiencia del jugador. Uso IA y diseño de prompts para explorar alternativas y revisar soluciones con criterio técnico.</p><div class="stack-tags"><span>Unity</span><span>C#</span><span>Player Experience</span><span>Pruebas con usuarios</span><span>GitHub Copilot</span><span>Prompts de IA</span></div></article>
+        <article class="stack-card"><span class="stack-number">02 / SISTEMAS</span><h3>APIs, servicios &amp; arquitectura</h3><p>Creación de APIs REST y servicios web con Java EE; desarrollo de triggers serverless con Firebase Functions sobre Cloud Run y Node.js. También tengo experiencia y aptitudes en Java, Python, Spring Boot, NestJS y microservicios; mensajería con colas SQS y tópicos SNS de AWS.</p><div class="stack-tags"><span>APIs REST</span><span>Firebase Functions</span><span>Cloud Run</span><span>Node.js</span><span>Java</span><span>Python</span><span>Spring Boot</span><span>NestJS</span><span>Microservicios</span><span>AWS SQS</span><span>AWS SNS</span></div></article>
         <article class="stack-card"><span class="stack-number">03 / PRODUCTO</span><h3>Interfaces que funcionan</h3><p>Aplicaciones de escritorio con WPF, C# y XAML; sitios web con ASP.NET MVC y aplicaciones móviles con Flutter. Este portafolio está construido con HTML, CSS, JavaScript modular y Vite; sus minijuegos usan Canvas 2D. Next.js, React Native y TypeScript forman parte de mis aptitudes.</p><div class="stack-tags"><span>C#</span><span>ASP.NET</span><span>WPF</span><span>Flutter</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vite</span><span>Canvas 2D</span><span>Next.js</span><span>TypeScript</span><span>React Native</span></div></article>
-        <article class="stack-card"><span class="stack-number">04 / INFORMACIÓN</span><h3>Datos &amp; conexiones</h3><p>Procedimientos, funciones y paquetes en PL/SQL; trabajo con JSON y Firestore, y aptitudes en MongoDB y Apache Kafka.</p><div class="stack-tags"><span>PL/SQL</span><span>JSON</span><span>Firestore</span><span>MongoDB</span><span>Kafka</span></div></article>
+        <article class="stack-card"><span class="stack-number">04 / INFORMACIÓN</span><h3>Datos &amp; conexiones</h3><p>Trabajo con procedimientos, funciones y paquetes en PL/SQL, además de JSON y Firestore. También tengo aptitudes en MongoDB y Apache Kafka.</p><div class="stack-tags"><span>PL/SQL</span><span>JSON</span><span>Firestore</span><span>MongoDB</span><span>Kafka</span></div></article>
         <article class="stack-card stack-card-delivery"><span class="stack-number">05 / OPERACIÓN</span><h3>Entregar &amp; observar</h3><p>Despliegue continuo con GitHub, logs estructurados en Cloud Logging y métricas y alertas de latencia en Datadog.</p><div class="stack-tags"><span>GitHub</span><span>Despliegue continuo</span><span>Cloud Logging</span><span>Datadog</span></div></article>
       </div>
     </div></section>
