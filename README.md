@@ -28,7 +28,3 @@ En el sitio encontrarás más contexto sobre los desafíos, las decisiones y las
 
 - [LinkedIn](https://www.linkedin.com/in/daniel-cartes-1b27a71a3/)
 - [GitHub](https://github.com/DanielCartesC)
-
----
-
-Este repositorio contiene los archivos estáticos publicados en GitHub Pages. El README documenta el portafolio y no modifica la página principal.
